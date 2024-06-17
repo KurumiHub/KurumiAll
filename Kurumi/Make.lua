@@ -358,7 +358,7 @@ local Themes = {
 		TitleBarLine = Color3.fromRGB(85, 6, 255),
 		Tab = Color3.fromRGB(255, 255, 204),
 
-		Element = Color3.fromRGB(255, 255, 204),
+		Element = Color3.fromRGB(255, 255, 255),
 		ElementBorder = Color3.fromRGB(204, 0, 204),
 		InElementBorder = Color3.fromRGB(92, 28, 255),
 		ElementTransparency = 0.87,
