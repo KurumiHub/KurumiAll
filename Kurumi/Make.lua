@@ -350,7 +350,7 @@ local Themes = {
 		Name = "XRayNe",
 		Accent = Color3.fromRGB(204, 0, 204),
 
-		AcrylicMain = Color3.fromRGB(204,255, 204),
+		AcrylicMain = Color3.fromRGB(204,0, 204),
 		AcrylicBorder = Color3.fromRGB(255, 255, 204),
 		AcrylicGradient = ColorSequence.new(Color3.fromRGB(204, 0, 204), Color3.fromRGB(204, 0, 102)),
 		AcrylicNoise = 0.9,
@@ -359,7 +359,7 @@ local Themes = {
 		Tab = Color3.fromRGB(255, 255, 204),
 
 		Element = Color3.fromRGB(255, 255, 204),
-		ElementBorder = Color3.fromRGB(204, 255, 255),
+		ElementBorder = Color3.fromRGB(204, 0, 204),
 		InElementBorder = Color3.fromRGB(92, 28, 255),
 		ElementTransparency = 0.87,
 
