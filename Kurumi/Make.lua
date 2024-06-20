@@ -19,7 +19,7 @@ local Themes = {
 		"Aqua",
 		"Amethyst",
 		"Rose",
-		"Sakura",
+		"Kurumi",
 		"XRayNe"
 	},
 	Dark = {
@@ -291,8 +291,8 @@ local Themes = {
 		Hover = Color3.fromRGB(200, 120, 170),
 		HoverChange = 0.04,
 	},
-	Sakura = {
-		Name = "Sakura",
+	Kurumi = {
+		Name = "Kurumi",
 		Accent = Color3.fromRGB(255, 0, 127),
 
 		AcrylicMain = Color3.fromRGB(255, 0, 127),
