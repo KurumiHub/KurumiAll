@@ -297,7 +297,7 @@ local Themes = {
 		
 				AcrylicMain = Color3.fromRGB(255, 0, 127),
 				AcrylicBorder = Color3.fromRGB(255, 255, 204),
-				AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 255), Color3.fromRGB(255, 0, 127)),
+		--		AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 255), Color3.fromRGB(255, 0, 127)),
 				AcrylicNoise = 0.9,
 		
 				TitleBarLine = Color3.fromRGB(85, 6, 255),
