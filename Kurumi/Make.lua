@@ -293,12 +293,12 @@ local Themes = {
 	},
 	Sakura = {
 		Name = "Sakura",
-		Accent = Color3.fromRGB(252, 209, 215),
+		Accent = Color3.fromRGB(255, 0, 127),
 
-		AcrylicMain = Color3.fromRGB(40, 40, 40),
+		AcrylicMain = Color3.fromRGB(255, 0, 127),
 		AcrylicBorder = Color3.fromRGB(130, 90, 110),
 		AcrylicGradient = ColorSequence.new{
-			ColorSequenceKeypoint.new(0, Color3.fromRGB(252, 209, 215)),
+			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 127)),
 			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(255, 231, 222)),
 			ColorSequenceKeypoint.new(0.50, Color3.fromRGB(233, 177, 205)),
 			ColorSequenceKeypoint.new(0.75, Color3.fromRGB(195, 130, 158)),
@@ -346,6 +346,7 @@ local Themes = {
 		Hover = Color3.fromRGB(200, 120, 170),
 		HoverChange = 0.04,
 	},
+	
 	XRayNe = {
 		Name = "XRayNe",
 		Accent = Color3.fromRGB(255, 0, 127),
