@@ -296,7 +296,7 @@ local Themes = {
 		Accent = Color3.fromRGB(255, 0, 127),
 
 		AcrylicMain = Color3.fromRGB(255, 0, 127),
-		AcrylicBorder = Color3.fromRGB(130, 90, 110),
+		AcrylicBorder = Color3.fromRGB(255, 255, 204),
 		AcrylicGradient = ColorSequence.new{
 			ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 127)),
 			ColorSequenceKeypoint.new(0.25, Color3.fromRGB(255, 231, 222)),
@@ -306,13 +306,13 @@ local Themes = {
 		},
 		AcrylicNoise = 0.92,
 
-		TitleBarLine = Color3.fromRGB(140, 85, 105),
-		Tab = Color3.fromRGB(132, 89, 95),
+		TitleBarLine = Color3.fromRGB(85, 6, 255),
+		Tab = Color3.fromRGB(255, 255, 204),
 
-		Element = Color3.fromRGB(220, 140, 190),
-		ElementBorder = Color3.fromRGB(110, 70, 85),
-		InElementBorder = Color3.fromRGB(120, 90, 90),
-		ElementTransparency = 0.86,
+		Element = Color3.fromRGB(255, 255, 204),
+		ElementBorder = Color3.fromRGB(255, 0, 0),
+		InElementBorder = Color3.fromRGB(127, 0, 255),
+		ElementTransparency = 0.87,
 
 		ToggleSlider = Color3.fromRGB(252, 209, 215),
 		ToggleToggled = Color3.fromRGB(252, 209, 215),
