@@ -1061,7 +1061,7 @@ function Library:SafeCallback(Function, ...)
 
 		if not i then
 			return Library:Notify({
-				Title = "XRay Hub",
+				Title = "Kurumi Hub",
 				Content = "Checking",
 				SubContent = Event,
 				Duration = 3,
@@ -1069,7 +1069,7 @@ function Library:SafeCallback(Function, ...)
 		end
 
 		return Library:Notify({
-			Title = "XRay Hub",
+			Title = "Kurumi Hub",
 			Content = "Checking",
 			SubContent = Event:sub(i + 1),
 			Duration = 3,
@@ -2807,7 +2807,7 @@ Components.Window = (function()
 				MinimizeNotif = true
 				local Key = Library.MinimizeKeybind and Library.MinimizeKeybind.Value or Library.MinimizeKey.Name
 				Library:Notify({
-					Title = "XRay Hub",
+					Title = "Kurumi Hub",
 					Content = "Press " .. Key .. " to toggle the interface.",
 					Duration = 6
 				})
@@ -5524,7 +5524,7 @@ local SaveManager = {} do
 			local success, err = self:Load(name)
 			if not success then
 				return self.Library:Notify({
-					Title = "XRay Hub",
+					Title = "Kurumi Hub",
 					Content = "Config loader",
 					SubContent = "Failed to load autoload config: " .. err,
 					Duration = 7
@@ -5532,7 +5532,7 @@ local SaveManager = {} do
 			end
 
 			self.Library:Notify({
-				Title = "XRay Hub",
+				Title = "Kurumi Hub",
 				Content = "Config loader",
 				SubContent = string.format("Auto loaded config %q", name),
 				Duration = 7
@@ -5555,7 +5555,7 @@ local SaveManager = {} do
 
 				if name:gsub(" ", "") == "" then 
 					return self.Library:Notify({
-						Title = "XRay Hub",
+						Title = "Kurumi Hub",
 						Content = "Config loader",
 						SubContent = "Invalid config name (empty)",
 						Duration = 7
@@ -5565,7 +5565,7 @@ local SaveManager = {} do
 				local success, err = self:Save(name)
 				if not success then
 					return self.Library:Notify({
-						Title = "XRay Hub",
+						Title = "Kurumi Hub",
 						Content = "Config loader",
 						SubContent = "Failed to save config: " .. err,
 						Duration = 7
@@ -5573,7 +5573,7 @@ local SaveManager = {} do
 				end
 
 				self.Library:Notify({
-					Title = "XRay Hub",
+					Title = "Kurumi Hub",
 					Content = "Config loader",
 					SubContent = string.format("Created config %q", name),
 					Duration = 7
@@ -5590,7 +5590,7 @@ local SaveManager = {} do
 			local success, err = self:Load(name)
 			if not success then
 				return self.Library:Notify({
-					Title = "XRay Hub",
+					Title = "Kurumi Hub",
 					Content = "Config loader",
 					SubContent = "Failed to load config: " .. err,
 					Duration = 7
@@ -5598,7 +5598,7 @@ local SaveManager = {} do
 			end
 
 			self.Library:Notify({
-				Title = "XRay Hub",
+				Title = "Kurumi Hub",
 				Content = "Config loader",
 				SubContent = string.format("Loaded config %q", name),
 				Duration = 7
@@ -5611,7 +5611,7 @@ local SaveManager = {} do
 			local success, err = self:Save(name)
 			if not success then
 				return self.Library:Notify({
-					Title = "XRay Hub",
+					Title = "Kurumi Hub",
 					Content = "Config loader",
 					SubContent = "Failed to overwrite config: " .. err,
 					Duration = 7
@@ -5619,7 +5619,7 @@ local SaveManager = {} do
 			end
 
 			self.Library:Notify({
-				Title = "XRay Hub",
+				Title = "Kurumi Hub",
 				Content = "Config loader",
 				SubContent = string.format("Overwrote config %q", name),
 				Duration = 7
@@ -5637,7 +5637,7 @@ local SaveManager = {} do
 			writefile(self.Folder .. "/autoload.txt", name)
 			AutoloadButton:SetDesc("Current autoload config: " .. name)
 			self.Library:Notify({
-				Title = "XRay Hub",
+				Title = "Kurumi Hub",
 				Content = "Config loader",
 				SubContent = string.format("Set %q to auto load", name),
 				Duration = 7
